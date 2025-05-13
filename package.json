@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "canvas-confetti": "^1.9.3"
-  },
-  "devDependencies": {
-    "vite-plugin-gh-pages": "^1.0.1"
-  }
-}
