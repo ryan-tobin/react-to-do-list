@@ -1,96 +1,34 @@
-# React To-Do List
+# 📝 React To-Do List
 
-A modern, feature-rich To-Do List app built with React and Vite.  
-Easily manage your tasks, subtasks, priorities, and more—all in a beautiful, responsive interface.
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)<br>
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)<br>
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)<br>
+[![React](https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react)](https://react.dev)<br>
+[![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)](https://nodejs.org)<br>
+[![Last Commit](https://img.shields.io/github/last-commit/ryan-tobin/react-to-do-list)](https://github.com/ryan-tobin/react-to-do-list/commits)<br>
+[![Repo Size](https://img.shields.io/github/repo-size/ryan-tobin/react-to-do-list)](https://github.com/ryan-tobin/react-to-do-list)<br>
+[![Issues](https://img.shields.io/github/issues/ryan-tobin/react-to-do-list)](https://github.com/ryan-tobin/react-to-do-list/issues)<br>
+[![Forks](https://img.shields.io/github/forks/ryan-tobin/react-to-do-list?style=social)](https://github.com/ryan-tobin/react-to-do-list/forks)<br>
+[![Stars](https://img.shields.io/github/stars/ryan-tobin/react-to-do-list?style=social)](https://github.com/ryan-tobin/react-to-do-list/stargazers)<br>
+[![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel)](https://react-to-do-list-zeta-lovat.vercel.app)
+
+## Overview
+
+**React To-Do List** is a modern, feature-rich task management app built with **React** and **Vite**. Easily manage tasks, subtasks, priorities, and more—all within a beautiful, responsive UI.
+
+Perfect for staying organized and productive, this personal project showcases full-stack fundamentals with a polished frontend and clean architecture.
 
 ## Features
 
 - Add, edit, and delete tasks
 - Subtasks support
-- Priority and recurring options
+- Priority and recurring task options
 - Calendar and list views
 - Light/Dark mode toggle
 - Custom color themes
 - Progress and streak tracking
-- Drag-and-drop reordering
+- Drag-and-drop task reordering
 
-## Getting Started
+## Contact
+For questions, collaboration, or feedback, feel free to reach out via **Github Issues** or email me at ryanntobin119@gmail.com.
 
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) (v16+ recommended)
-- [npm](https://www.npmjs.com/) (comes with Node.js)
-
-### Installation
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/react-to-do-list.git
-   cd react-to-do-list
-   ```
-
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-
-3. **Start the development server:**
-   ```bash
-   npm run dev
-   ```
-   The app will be available at [http://localhost:5173](http://localhost:5173).
-
-## Building for Production
-
-To create an optimized production build:
-```bash
-npm run build
-```
-The output will be in the `dist` folder.
-
-## Deploying to GitHub Pages
-
-You can host your built app for free using GitHub Pages:
-
-1. **Install the Vite GitHub Pages deploy tool:**
-   ```bash
-   npm install --save-dev vite-plugin-gh-pages
-   ```
-
-2. **Add the plugin to your `vite.config.js`:**
-   ```js
-   // vite.config.js
-   import { defineConfig } from 'vite';
-   import react from '@vitejs/plugin-react';
-   import ghPages from 'vite-plugin-gh-pages';
-
-   export default defineConfig({
-     plugins: [react(), ghPages()],
-   });
-   ```
-
-3. **Add a deploy script to your `package.json`:**
-   ```json
-   "scripts": {
-     // ...other scripts
-     "deploy": "vite build && vite gh-pages"
-   }
-   ```
-
-4. **Push your code to GitHub:**
-   ```bash
-   git add .
-   git commit -m "Initial commit"
-   git branch -M main
-   git remote add origin https://github.com/YOUR_USERNAME/react-to-do-list.git
-   git push -u origin main
-   ```
-
-5. **Deploy:**
-   ```bash
-   npm run deploy
-   ```
-
-6. **Set GitHub Pages source:**
-   - Go to your repository on GitHub.
-   - Settings → Pages → Source: select `gh-pages` branch (or `/root` if prompted).
